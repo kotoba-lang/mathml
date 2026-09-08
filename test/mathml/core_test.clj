@@ -3,7 +3,7 @@
    convenience builders (row/frac/sup/sub/sqrt → the right elements), the <math> namespace wrapper +
    display attribute, and token elements (mi/mn/mo). xmllint validates the same output in `bb gate`."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [kotoba.mathml :as m]))
 
 (deftest builders
