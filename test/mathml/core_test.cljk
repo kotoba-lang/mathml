@@ -1,7 +1,7 @@
 (ns mathml.core-test
   "Golden tests for kotoba.mathml — the MathML (equations) hiccup, built on kotoba.xml. They pin the
    convenience builders (row/frac/sup/sub/sqrt → the right elements), the <math> namespace wrapper +
-   display attribute, and token elements (mi/mn/mo). xmllint validates the same output in `bb gate`."
+   display attribute, and token elements (mi/mn/mo). xmllint validates the same output in `kbb -M:gate`."
   (:require [clojure.test :refer [deftest is]]
             [kotoba.lang.text :as str]
             [kotoba.mathml :as m]))
